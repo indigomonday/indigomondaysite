@@ -3408,6 +3408,9 @@ input, select, textarea {
 				transform: translateY(2rem);
 				opacity: 0;
 				visibility: hidden;
+height: auto; 
+max-width: 100%;
+
 			}
 
 		
@@ -3419,6 +3422,8 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
+				height: auto; 
+max-width: 100%;
 			}
 
 		body.is-preload #intro {
